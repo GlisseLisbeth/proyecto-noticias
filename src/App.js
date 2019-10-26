@@ -10,8 +10,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       listaNoticias: [],
-      categoriaNoticias: ['business','entertainment','general','health','science','sports','technology'],
-      selected: 'business'
+      categoriaNoticias: ['general','business','entertainment','health','science','sports','technology'],
+      selected: 'general'
     }
   }
 
